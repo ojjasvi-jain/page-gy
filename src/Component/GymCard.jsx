@@ -30,7 +30,7 @@ const GymCard = ({ gymName, imageSrc, rating, gymId }) => {
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 backdrop-blur p-4 flex justify-between items-center">
-        <span className="text-lg font-semibold">{gymName}</span>
+        <span className="text-lg text-wrap font-semibold">{gymName}</span>
         <WWButton
           variant="v4"
           to={`/gymDetails/${gymId}`}
